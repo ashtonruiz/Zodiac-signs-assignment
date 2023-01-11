@@ -1,7 +1,7 @@
 import React from 'react';
 import './Main.css';
 import background from '../../background.png';
-import ZodiacCard from '../zodiac/Zodiac.js';
+import ZodiacCard from '../Zodiacs/Zodiac.js';
 import { zodiac } from '../../data.js';
 
 export default function Main() {
