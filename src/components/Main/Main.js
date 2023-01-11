@@ -8,7 +8,7 @@ export default function Main() {
   return (
     <main style={{ backgroundImage: `url(${background})` }}>
       {zodiac.map((Item) => (
-        <ZodiacCard key={zodiac.name} {...Item} />
+        <ZodiacCard key={Item.id} {...Item} />
       ))}
     </main>
   );

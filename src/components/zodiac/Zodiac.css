@@ -1,1 +1,11 @@
-
+.zodiac-card {
+  width: 300px;
+  background-color: rgb(192, 170, 120);
+  margin: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  color: black;
+}
