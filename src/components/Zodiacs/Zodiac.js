@@ -1,7 +1,7 @@
 import React from 'react';
 import './Zodiac.css';
 
-export default function ZodiacCard({ id, name, dates, symbol }) {
+export default function ZodiacCard({ name, dates, symbol }) {
   return (
     <div className="zodiac-card">
       <img src={`${process.env.PUBLIC_URL}/pictures/${name}.png`} />
